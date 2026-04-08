@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmanZaid Store | Best Flipkart Deals</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+        body { background-color: #f0f2f5; color: #333; }
+
+        /* Header */
+        header { background: #2874f0; color: white; padding: 20px; text-align: center; position: sticky; top: 0; z-index: 1000; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        header h1 { font-size: 24px; letter-spacing: 1px; }
+
+        /* Hero Section */
+        .hero { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1350&q=80'); 
+                height: 250px; background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center; color: white; text-align: center; }
+        .hero h2 { font-size: 30px; text-shadow: 2px 2px 5px rgba(0,0,0,0.5); }
+
+        /* Product Grid */
+        .container { max-width: 1200px; margin: 30px auto; padding: 0 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+
+        .product-card { background: white; border-radius: 15px; overflow: hidden; transition: transform 0.3s ease; box-shadow: 0 5px 15px rgba(0,0,0,0.05); border: 1px solid #eee; }
+        .product-card:hover { transform: translateY(-10px); }
+
+        .image-box { width: 100%; height: 200px; background: #fff; display: flex; align-items: center; justify-content: center; padding: 15px; }
+        .image-box img { max-width: 100%; max-height: 100%; object-fit: contain; }
+
+        .info { padding: 20px; text-align: center; }
+        .info h3 { font-size: 18px; margin-bottom: 10px; color: #222; }
+        .price { font-size: 22px; color: #2874f0; font-weight: 700; margin-bottom: 15px; }
+
+        .buy-btn { display: block; background: #fb641b; color: white; text-decoration: none; padding: 12px; border-radius: 8px; font-weight: 600; transition: background 0.3s; }
+        .buy-btn:hover { background: #e65a16; }
+
+        footer { text-align: center; padding: 40px; color: #888; font-size: 14px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AZ CREATIONS STORE</h1>
+    </header>
+
+    <div class="hero">
+        <h2>Top Trending Products from Flipkart</h2>
+    </div>
+
+    <div class="container">
+        <div class="product-card">
+            <div class="image-box">
+                <img src="https://m.media-amazon.com/images/I/71X8N6Y2+WL._SL1500_.jpg" alt="Smartphone">
+            </div>
+            <div class="info">
+                <h3>Latest Smartphone</h3>
+                <div class="price">₹19,999</div>
+                <a href="APKI_FLIPKART_LINK_1" target="_blank" class="buy-btn">View on Flipkart</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="image-box">
+                <img src="https://m.media-amazon.com/images/I/61M6Y3+j3sL._SL1500_.jpg" alt="Gym Gear">
+            </div>
+            <div class="info">
+                <h3>Premium Smartwatch</h3>
+                <div class="price">₹2,499</div>
+                <a href="APKI_FLIPKART_LINK_2" target="_blank" class="buy-btn">View on Flipkart</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="image-box">
+                <img src="https://m.media-amazon.com/images/I/61K7S-n9j3L._SL1500_.jpg" alt="Shoes">
+            </div>
+            <div class="info">
+                <h3>Sports Running Shoes</h3>
+                <div class="price">₹1,299</div>
+                <a href="APKI_FLIPKART_LINK_3" target="_blank" class="buy-btn">View on Flipkart</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 AZ Creations Store | Affiliate Partner
+    </footer>
+
+</body>
+</html>
